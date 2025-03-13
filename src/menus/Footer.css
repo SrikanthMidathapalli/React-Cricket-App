@@ -1,0 +1,17 @@
+/* Footer.css */
+.footer {
+  background-color: #17a2b8; /* bg-info */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;  /* Ensures footer is above other content */
+}
+
+body {
+  padding-bottom: 60px;  /* Adjust this depending on your footer height */
+  margin: 0;
+}

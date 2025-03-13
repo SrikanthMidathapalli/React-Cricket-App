@@ -1,0 +1,43 @@
+.home-page {
+    padding: 30px 0;
+    min-height: 70vh;
+    background: linear-gradient(to bottom, #f0f9ff, #d0e9ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* prevent overflow */
+  }
+  
+  .image-gallery-wrapper {
+    width: 100vw; /* Full viewport width */
+    overflow: hidden;
+  }
+  
+  .image-gallery {
+    display: flex;
+    width: max-content; /* Ensures all images line up horizontally */
+    animation: scrollImages 25s linear infinite;
+  }
+  
+  .image-gallery img {
+    width: 500px;
+    height: 350px;
+    margin: 0 20px;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+  }
+  
+  .image-gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  @keyframes scrollImages {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

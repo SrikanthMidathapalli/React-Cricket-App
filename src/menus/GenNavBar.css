@@ -1,0 +1,23 @@
+/* GenNavBar.css */
+.navbar {
+    background-color: #1495c4 !important; /* bg-info color */
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    z-index: 1050; /* Ensures navbar stays above other content */
+    box-shadow: 0 4px 2px -2px gray; /* Optional: Adds shadow effect for better visibility */
+}
+
+body {
+    padding-top: 80px !important; /* Adjust this depending on your navbar height */
+}
+
+/* Optional: Style navbar links and items */
+.navbar-nav .nav-link {
+    color: white !important; /* Ensures the text is white */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa !important; /* Light hover effect */
+}

@@ -1,0 +1,101 @@
+{
+  "Player": [
+    {
+      "id": "p-1",
+      "playerName": "Sachin",
+      "playerType": "Batsman",
+      "email": "sachin@gmail.com",
+      "password": "123",
+      "roleId": "r-2",
+      "profilePic": "/images/sachin1.jpeg"
+    },
+    {
+      "id": "p-2",
+      "playerName": "Dhoni",
+      "playerType": "WicketKeeper",
+      "email": "dhoni@gmail.com",
+      "password": "123456",
+      "roleId": "r-2",
+      "profilePic": "/images/dhoni.jpeg"
+    },
+    {
+      "id": "p-3",
+      "playerName": "kohli",
+      "playerType": "Batsman",
+      "email": "k@gmail.com",
+      "password": "123456",
+      "roleId": "r-2",
+      "profilePic": "/images/kohli.jpeg"
+    },
+    {
+      "id": "p-4",
+      "playerName": "srikanth",
+      "playerType": "AllRounder",
+      "email": "srikanth@gmail.com",
+      "password": "123456",
+      "roleId": "r-1",
+      "profilePic": ""
+    }
+  ],
+  "Role": [
+    {
+      "id": "r-1",
+      "role": "Admin"
+    },
+    {
+      "id": "r-2",
+      "role": "Player"
+    }
+  ],
+  "GameFormat": [
+    {
+      "id": "g-1",
+      "format": "T20",
+      "wickets": "10",
+      "runs": "100",
+      "playerId": "p-1"
+    },
+    {
+      "id": "g-2",
+      "format": "Test",
+      "wickets": "100",
+      "runs": "10000",
+      "playerId": "p-1"
+    },
+    {
+      "id": "g-3",
+      "format": "T20",
+      "wickets": "16",
+      "runs": "100",
+      "playerId": "p-2"
+    },
+    {
+      "id": "g-5",
+      "gameFormat": "Test",
+      "runs": "1000",
+      "wkts": "2",
+      "playerId": "p-3"
+    },
+    {
+      "id": "g-6",
+      "format": "Oneday",
+      "runs": "100",
+      "wickets": "1",
+      "playerId": "p-3"
+    },
+    {
+      "id": "g-9",
+      "format": "Test",
+      "runs": "19",
+      "wickets": "10",
+      "playerId": "p-2"
+    },
+    {
+      "id": "g-6",
+      "format": "Oneday",
+      "runs": "90000",
+      "wickets": "1",
+      "playerId": "p-1"
+    }
+  ]
+}
